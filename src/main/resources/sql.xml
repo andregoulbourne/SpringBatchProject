@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+	<query name="getAllPeople">
+		SELECT * FROM PERSON
+	</query>
+	<query name="insertAPersion">
+		INSERT INTO PERSON (PERSON_ID,NAME,AGE) VALUES (:id,:name,:age)
+	</query>
+</queries>
